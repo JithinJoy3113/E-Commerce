@@ -1,0 +1,38 @@
+*{
+	font-family:Inter,-apple-system,Helvetica,Arial,sans-serif;	
+}
+.header{
+	height:56px;
+}
+.spaceDiv{
+        height:100%;
+        min-width:124px;
+}
+.cartImageDiv{
+        min-width:137px;
+}
+.imageDiv{
+	line-height:1.4;
+}
+.exploreLink{
+	font-size:11px;
+}
+.plusLink{
+ 	color:#ffe500;      
+}
+.searchDiv{
+        min-width:304px;
+        width:100%;
+}
+.searchBarDiv{
+        width:100%;
+        height:36px;
+}
+.searchBar{
+	width:100%;
+        height:36px;
+        font-size:14px;
+}
+.searchButton{
+	height:36px;
+}
