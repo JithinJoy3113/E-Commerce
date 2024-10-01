@@ -1,0 +1,93 @@
+.productDetailsdiv{
+	width:66%;
+}
+.productLeft{
+	width:41%;
+}
+.productBodydiv{
+	padding:16px;
+}
+.productImg{
+	width:64px;
+        height:64px;
+}
+.productButtondiv{
+	margin-left:64px;
+        margin-top:12px;
+}
+.cartButtondiv{
+	background:#ff9f00;
+        padding: 18px 8px;
+        border-radius:2px;
+        height:56px;
+}
+.cartBtn{
+	background:#ff9f00;
+        font-size:15px;
+        font-weight:bold;
+        width:98%;
+}
+.buyButtondiv{
+	background:#fb641b;
+        padding: 18px 8px;
+        border-radius:2px;
+        height:56px;
+}
+.buy{
+	background:#fb641b;
+        font-size:15px;
+        font-weight:bold;
+        width:98%;
+}
+.productDetailsdiv{
+	padding-left:24px;
+}
+.pathLink{
+	font-size:12px;
+        color:#878787;      
+}
+.compare,.share{
+	font-size:13.5px;
+}
+.shareDiv:hover{
+        color:#2874f0;
+}
+.shareIcon{
+	fill:#c2c2c2;
+}
+.shareIcon:hover{
+        fill:#2874f0;
+}
+.headingDiv{
+        margin-top:7px;
+	font-size:17.5px;
+}
+.ratingSpan{
+	font-size:13.5px;
+        color:#878787;
+        font-weight:bold;
+}
+.discount{
+	font-size:14px;
+        font-weight:bold;       
+}
+.price{
+	font-size:28px;
+}
+.actualAmount{
+	font-size:16px;
+        color:#878787;
+        margin-left:12px;
+}
+.off{
+	font-size:15px;
+        font-weight:bold;
+	margin-left:12px;
+}
+.fee,.offerSpan,.offerView{
+	font-size:14px;
+}
+.offerHead{
+	font-size:15px;
+        font-weight:bold;  
+}
