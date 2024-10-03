@@ -1,0 +1,576 @@
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>Product List</title>        
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/list.css">
+        <link rel="stylesheet" href="css/media.css">
+    </head>
+    <body>
+        <div class="header d-flex">
+           <div class="spaceDiv d-flex"></div>
+             <div class="headerContents d-flex w-100 align-items-center">
+                <div class="cartImageDiv d-flex  justify-content-end">
+                    <div class="imageDiv d-flex justify-content-center flex-column">
+                        <a href="" class="imageLink">
+                            <img src="assets/images/flipkart.png" alt="" width="75" height="20" class="mt-1">
+                        </a>
+                        <i><a href="" class="exploreLink text-white text-decoration-none">Explore
+                            <span class="plusLink me-0">Plus</span>
+                            <img src="assets/images/plus.png" alt="" class="mb-1" width="10">
+                        </a></i>
+                    </div>
+                </div>
+                <div class="searchDiv d-flex h-100 justify-content-between align-items-center ms-3 ">
+                    <div class="searchBarDiv d-flex">
+                        <input type="text" placeholder="Search for products, brands and more" class="searchBar border-0 ps-3">
+                    </div>
+                    <button class="searchButton border-0 bg-white">
+                        <svg width="20" height="20" viewBox="0 0 17 18" class="" xmlns="http://www.w3.org/2000/svg">
+                            <g fill="#2874F1" fill-rule="evenodd">
+                                <path class="EwE-Fa" d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203"></path>
+                                <path class="EwE-Fa" d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467"></path>
+                            </g>
+                        </svg>
+                    </button>
+                </div>             
+                <div class="loginDiv">
+                    <span class="myAccount text-white ms-4">My Account</span>
+                    <img src="assets/images/headerdrop.png" class="ms-1" alt=""> 
+                </div>
+                <div class="sellerDiv d-flex me-4 ps-3">
+                    <a href="" class="sellerLink text-white text-decoration-none">Become a Seller</a>
+                </div>
+                <div class="moreDiv d-flex mx-3  pe-1">
+                    <div class="more d-flex align-items-center">
+	               <a href="" class="moreLink text-decoration-none text-white">More</a>
+                    </div>                
+                   <img src="assets/images/headerdrop.png" class="ms-1" alt="">              
+                </div> 
+                <div class="cartDiv d-flex align-items-center ms-3 me-1 ps-2">
+                    <div class="cart d-flex align-items-center">
+                        <a href="cart.html"  class="cartLink text-decoration-none">
+                            <svg class="GAbRIN" width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                <path class="cziJ98" d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99
+                                    0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86" fill="#fff">
+                                </path>
+                             </svg>
+                            <span class="cartSpan text-white ms-1">Cart</span>
+                         </a>
+                    </div>
+                </div>
+            </div>
+            <div class="spaceDiv"></div>
+       </div>
+       <div class="bodyContents d-flex flex-column">
+         <div class="itemsDiv d-flex">
+           <div class="itemsList d-flex justify-content-between m-auto px-4 align-items-center">
+               <span class="items">Electronics
+                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#878787"
+                        width="8px" height="8px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;" xml:space="preserve" class="ms-1">
+                         <g>
+                              <path d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
+                                  c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
+                                  c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/>
+                         </g>
+                   </svg>
+               </span>
+               <span class="items">TVs & Appliances
+                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#878787"
+                        width="8px" height="8px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;" xml:space="preserve" class="ms-1">
+                         <g>
+                              <path d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
+                                  c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
+                                  c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/>
+                         </g>
+                   </svg>
+               </span>
+               <span class="items">Men
+                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#878787"
+                        width="8px" height="8px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;" xml:space="preserve" class="ms-1">
+                         <g>
+                              <path d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
+                                  c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
+                                  c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/>
+                         </g>
+                   </svg>
+               </span>
+               <span class="items">Women
+                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#878787"
+                        width="8px" height="8px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;" xml:space="preserve" class="ms-1">
+                         <g>
+                              <path d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
+                                  c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
+                                  c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/>
+                         </g>
+                   </svg>
+               </span>
+               <span class="items mx-4">Baby & Kids
+                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#878787"
+                        width="8px" height="8px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;" xml:space="preserve" class="ms-1">
+                         <g>
+                              <path d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
+                                  c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
+                                  c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/>
+                         </g>
+                   </svg>
+               </span>
+               <span class="items">Home & Furniture
+                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#878787"
+                        width="8px" height="8px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;" xml:space="preserve" class="ms-1">
+                         <g>
+                              <path d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
+                                  c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
+                                  c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/>
+                         </g>
+                   </svg>
+               </span>
+               <span class="items">Sports, Books & More
+                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" fill="#878787"
+                        width="8px" height="8px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;" xml:space="preserve" class="ms-1">
+                         <g>
+                              <path d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
+                                  c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
+                                  c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/>
+                         </g>
+                   </svg>
+               </span>
+               <span class="items">
+                   Flights
+               </span>
+               <span class="items">
+                   Offer Zone
+               </span>
+           </div>
+       </div>
+       <div class="bodyMaindiv d-flex">
+          <div class="leftContent d-flex flex-column">
+             <div class="filterDiv d-flex flex-column"> 
+                <div class="filterHead d-flex justify-content-between align-items-center">
+                   <span class="filter">Filters</span>
+                   <span class="clear me-2">CLEAR ALL</span>
+                </div>
+                <div class="minDiv d-flex">
+                   <div class="minButton d-flex align-items-center">
+                      <span class="minX">✕</span>
+                      <span class="min ms-2">Min-₹30000+</span>
+                   </div>
+                </div>
+             </div>
+             <div class="categoryDiv">
+                <div class="categoryHead pt-1">
+                   <span class="category">CATEGORIES</span>
+                </div>
+                <div class="categoryContent d-flex pt-1 mb-2">
+                   <a href="" class="accessoriesLink text-decoration-none mt-2">
+                      <img src="assets/images/leftarrow.png" class="mb-1 me-1">Mobiles & Accessories
+                   </a>
+                </div>
+                <a href="" class="mobileLink text-decoration-none text-dark ms-3 mt-4">Mobiles</a>
+             </div>
+             <div class="priceDiv d-flex flex-column"> 
+                <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">PRICE</span>
+                   <span class="clear me-2">CLEAR</span>
+                </div>
+                <div class="rangeDiv d-flex flex-column">
+                   <div class="rangeButton d-flex align-items-center">
+                      <input type="range" class="inputRange mt-4">                 
+                   </div>
+                   <div class="priceMinmax d-flex mt-4">
+                      <div class="minDiv">
+                         <select class="select border-0">
+                            <option class="option">Min</option>
+                            <option class="option">₹10000</option>
+                            <option class="option">₹15000</option>
+                            <option class="option">₹20000</option>
+                         </select>
+                      </div>
+                      <span class="toSpan mx-3">to</span>
+                      <div class="minDiv">
+                         <select class="select border-0">
+                            <option class="option">₹15000</option>
+                            <option class="option">₹20000</option>
+                            <option class="option">₹30000</option>
+                            <option class="option">₹30000+</option>
+                         </select>
+                      </div>
+                   </div>
+                </div>
+             </div>
+             <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">BRAND</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+             </div>
+             <div class="checkboxDiv d-flex">
+                 <input type="checkbox" class="check">
+                 <img src="assets/images/assured.png" class="ms-2">
+             </div>
+             <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">CUSTOMER RATING</span>
+                   <img src="assets/images/arrowup.png">
+                 </div>
+                 <div class="ratingDiv d-flex flex-column pt-3">
+                    <div class="ratingBox d-flex">
+                       <input type="checkbox">
+                       <div class="star ps-2">4★ & above</div>
+                    </div>
+                    <div class="ratingBox d-flex mt-2">
+                       <input type="checkbox">
+                       <div class="star ps-2">4★ & above</div>
+                    </div>
+                 </div>
+             </div>
+             <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">GST INVOICE AVAILABLE</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+             </div>
+             <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">RAM</span>
+                   <img src="assets/images/arrowup.png">
+                 </div>
+                 <div class="ratingDiv d-flex flex-column pt-3">
+                    <div class="ratingBox d-flex">
+                       <input type="checkbox">
+                       <div class="star ps-2">8 GB and Above</div>
+                    </div>
+                    <div class="ratingBox d-flex mt-2">
+                       <input type="checkbox">
+                       <div class="star ps-2">6 GB</div>
+                    </div>
+                 </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">INTERNAL STORAGE</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">BATTERY CAPACITY</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">SCREEN SIZE</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">PRIMARY CAMERA</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">SECONADRY CAMERA</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">PROCESSOR BRAND</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">SPECIALITY</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">RESOLUION TYPE</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">OPERATING SYSYEM</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">NETWORK TYPE</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">SIM TYPE</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">OFFERS</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">FEATURES</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">TYPE</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">NUMBER OF CORES</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">AVAILABILITY</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">DISCOUNT</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="priceDiv d-flex flex-column">
+                 <div class="priceHead d-flex justify-content-between align-items-center">
+                   <span class="price">CLOCK SPEED</span>
+                   <img src="assets/images/arrowdown.png">
+                </div>
+              </div>
+              <div class="leftImgdiv d-flex flex-column align-items-center">
+                 <span class="needHelp">Need Help?</span>
+                 <a href="" class="decideLink text-decoration-none mt-1">Help me decide</a>
+                 <img src="assets/images/book.png" width="103" height="54" class="mt-2">
+              </div>
+           </div>                  
+         <div class="rightContent">
+            <div class="rightTop d-flex flex-column">
+               <div class="linkDiv  d-flex">
+                  <div class="topLinksdiv">
+                     <a href"" class="pathLink text-decoration-none">Home</a>
+                     <img src="assets/images/rightarrowgrey.png" class="me-1" alt="">
+                  </div>
+                  <div class="topLinksdiv">
+                     <a href"" class="pathLink text-decoration-none">Mobile & Accessories</a>
+                     <img src="assets/images/rightarrowgrey.png" class="me-1" alt="">
+                  </div>
+                  <div class="topLinksdiv">
+                     <a href"" class="pathLink text-decoration-none">Mobiles</a>
+                     <img src="assets/images/rightarrowgrey.png" class="me-1" alt="">
+                  </div>
+               </div>             
+               <span class="result">Showing 1 – 6 of 6 results for "OPPO K12x 5G"</span>
+               <div class="sortDiv d-flex">
+                  <span class="sort">Sort By</span>
+                  <div class="sortType">Relevance</div>
+		  <div class="sortType">Popularity</div>
+                  <div class="sortType">Price -- Low to High</div>
+		  <div class="sortType">Price -- High to Low</div>
+                  <div class="sortType">Newest First</div>
+               </div>
+            </div> 
+            <div class="productDiv d-flex">
+               <div class="productImagediv d-flex flex-column">
+                  <img src="assets/images/frontbackmain.webp" class="mobileImg" alt="" width="158" height="200">
+                  <div class="compareCkeckdiv d-flex">
+                     <input type="checkbox">
+                     <span class="compare ms-2">Add to Compare</span>
+                  </div>
+               </div>
+               <div class="productDetailsdiv d-flex">
+                  <div class="specificationDiv d-flex flex-column">
+                     <span class="sponsored">Sponsored</span>
+                     <div class="headingDiv mt-1">OPPO K12x 5G with 45W SUPERVOOC Charger In-The-Box (Feather Pink, 128 GB)</div>  
+                     <div class="rating d-flex align-items-center py-1">
+                         <img src="assets/images/rating.png" class="" alt="">
+                         <span class="ratingSpan ms-2">37,817 Ratings & 1,431 Reviews</span>
+                     </div>
+                     <div class="featuresDiv d-flex flex-column pt-2">
+                        <ul class="featuresUl mb-0">
+                           <li class="features">6 GB RAM | 128 GB ROM | Expandable Upto 1 TB</li>
+			   <li class="features">16.94 cm (6.67 inch) HD Display</li>
+			   <li class="features">32MP + 2MP | 8MP Front Camera</li>
+                           <li class="features">5100 mAh Battery</li>
+			   <li class="features">Dimensity 6300 Processor</li>
+			   <li class="features">1 Year Manufacturer Warranty for Device and 6 Months Manufacturer</li>
+                        </ul>
+                        <span class="warranty ps-4"> Warranty for Inbox Accessories</span>
+                     </div>
+                  </div>
+                  <div class="itemPricediv d-flex flex-column">
+                     <div class="mobilePricediv d-flex flex-column">
+                        <div class="priceImg d-flex align-items-center">
+                           <span class="mobilePrice">₹12,999</span>
+                           <img src="assets/images/assured.png" class="ms-4" alt="">
+                        </div>
+                        <div class="priceDisplay d-flex">
+                           <span class="actualAmount text-decoration-line-through">₹16,999</span>
+                           <span class="off text-success ms-2">23% off</span>
+                        </div>
+                        <span class="free mt-1">Free Delivery</span>
+                        <span class="top mt-2">Top Discount of the Sale</span>
+                        <span class="upto mt-1">Upto <b>₹7500</b> Off on Exchange</span>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+         </div>
+
+       </div>     
+       <div class="footerDiv d-flex flex-column bg-dark mt-4"> 
+       <div class="footerContents d-flex flex-column flex-xl-row px-5 pt-5">
+           <div class="footerColOne d-flex flex-column flex-md-row w-75 justify-content-between ps-3 pe-5 me-4">
+               <div class="contentOne d-flex flex-column">
+                    <div class="footerHead  mb-2">ABOUT</div>
+                    <a href="contact.html" class="footerFont">Contact Us</a>
+                    <a href="" class="footerFont">About Us</a>
+                    <a href="" class="footerFont">Careers</a>
+                    <a href="" class="footerFont">Flipkart Stories</a>
+                    <a href="" class="footerFont">Press</a>
+	            <a href="" class="footerFont">Corporate Information</a>
+               </div>
+               <div class="contentOne companyDiv d-flex flex-column ">
+                    <div class="footerHead mb-2">GROUP COMPANIES</div>
+                    <a href="" class="footerFont">Myntra</a>
+                    <a href="" class="footerFont">Cleartrip</a>
+                    <a href="" class="footerFont">Shopsy</a>
+               </div>
+               <div class="contentOne d-flex flex-column ">
+                    <div class="footerHead mb-2">HELP</div>
+                    <a href="" class="footerFont">Payments</a>
+                    <a href="" class="footerFont">Shipping</a>
+                    <a href="" class="footerFont">Cancellation & Returns</a>
+                    <a href="" class="footerFont">FQA</a>
+                    <a href="" class="footerFont">Report Infringement</a>
+	            <a href="" class="footerFont">Corporate Information</a>
+               </div>
+           </div>
+           <div class="d-flex  flex-column flex-md-row footerColTwo w-100 justify-content-between  ps-3 pe-4">
+               <div class="d-flex flex-column a">
+                   <div class="footerHead mb-2">CONSUMER POLICY</div>
+                   <a href="" class="footerFont">Cancellation & Returns</a>
+                   <a href="" class="footerFont">Terms Of Use</a>
+                   <a href="" class="footerFont">Security</a>
+                   <a href="" class="footerFont">Privacy</a>
+                   <a href="" class="footerFont">Sitemap</a>
+	           <a href="" class="footerFont">Grievance Redressal</a>
+                   <a href="" class="footerFont">EPR Compliance</a>
+               </div>
+               <div class="mailDiv d-flex flex-column ps-5">
+	           <div class="footerHead mb-2">Mail Us:</div>
+                   <p class="footerPara">Flipkart Internet Private Limited,</p>
+                   <p class="footerPara">Buildings Alyssa, Begonia &</p>
+                   <p class="footerPara">Clove Embassy Tech Village,</p>
+                   <p class="footerPara">Outer Ring Road, Devarabeesanahalli Village,</p>
+                   <p class="footerPara">Bengaluru, 560103,</p>
+	           <p class="footerPara">Karnataka, India</p> 
+                    <div class="footerHead mb-2 mt-3">Social:</div>
+                    <div class="socialImg">
+                        <img src="assets/images/social.png" width="105" height="25">
+                    </div>
+               </div>
+               <div class="d-flex flex-column">
+                   <div class="footerHead mb-2">Registered Office Address:</div>
+                   <p class="footerPara">Flipkart Internet Private Limited,</p>
+                   <p class="footerPara">Buildings Alyssa, Begonia &</p>
+                   <p class="footerPara">Clove Embassy Tech Village,</p>
+                   <p class="footerPara">Outer Ring Road, Devarabeesanahalli Village,</p>
+                   <p class="footerPara">Bengaluru, 560103,</p>
+	           <p class="footerPara">Karnataka, India</p>
+                   <p class="footerPara">CIN : U51109KA2012PTC066107</p>
+	           <p class="footerPara">Telephone: 044-45614700 / 044-67415800</p>
+               </div>
+           </div>        
+       </div>
+       <div class="footerBase d-flex flex-column flex-md-row justify-content-between mt-4 py-4 px-xl-5 mx-xl-3">
+           <div class="baseContents">
+               <img src="assets/images/seller.png">
+               <a href="" class="baseLink">Become a Seller</a>
+           </div>
+           <div class="baseContents">
+               <img src="assets/images/star.png">
+               <a href="" class="baseLink">Advertise </a>
+           </div>
+           <div class="baseContents">
+               <img src="assets/images/gift.png">
+               <a href="" class="baseLink">Gift Cards</a>
+           </div>
+           <div class="baseContents">
+               <img src="assets/images/help.png">
+               <a href="" class="baseLink">Help Center</a>
+           </div>
+           <div class="baseContents">
+               <img src="assets/images/since.png">
+               <span class="baseLink">2007-2024 Flipkart.com</span>
+           </div>
+           <div class="footerImgdiv">
+               <img class="footerImg"src="assets/images/footerimg.png">
+           </div>
+       </div>
+      </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

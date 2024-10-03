@@ -1,154 +1,134 @@
-<html>
+ <html>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
-        <title>E-commerce</title>        
+        <title>Home</title>        
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/home.css">
         <link rel="stylesheet" href="css/media.css">
     </head>
     <body>
-        <div class="header d-flex bg-primary">
-           <div class="spaceDiv d-flex"></div>
-             <div class="headerContents d-flex w-100 align-items-center">
+        <div class="header d-flex">           
+             <div class="headerContents d-flex w-100 align-items-center justify-content-between">
                 <div class="cartImageDiv d-flex  justify-content-end">
                     <div class="imageDiv d-flex justify-content-center flex-column">
                         <a href="" class="imageLink">
-                            <img src="assets/images/flipkart.png" alt="" width="75" height="20" class="mt-1">
+                            <img src="assets/images/flipkartblue.svg" alt="" width="160" height="40" class= "">
                         </a>
-                        <i><a href="" class="exploreLink text-white text-decoration-none">Explore
-                            <span class="plusLink me-0">Plus</span>
-                            <img src="assets/images/plus.png" alt="" class="mb-1" width="10">
-                        </a></i>
                     </div>
                 </div>
-                <div class="searchDiv d-flex h-100 justify-content-between bg-primary  align-items-center mx-3">
-                    <div class="searchBarDiv d-flex bg-primary">
-                        <input type="text" placeholder="Search for products,brands and more" class="searchBar border-0 ">
+                <div class="searchDiv d-flex h-100 justify-content-between  align-items-center">
+                     <svg width="24" height="24" class=" searchButton" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Search Icon</title><path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 16L21 21" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                    <div class="searchBarDiv d-flex">
+                        <input type="text" placeholder="Search for Products, Brands and More" class="searchBar border-0">
                     </div>
-                    <button class="searchButton border-0 bg-white">
-                        <svg width="20" height="20" viewBox="0 0 17 18" class="" xmlns="http://www.w3.org/2000/svg">
-                            <g fill="#2874F1" fill-rule="evenodd">
-                                <path class="EwE-Fa" d="m11.618 9.897l4.225 4.212c.092.092.101.232.02.313l-1.465 1.46c-.081.081-.221.072-.314-.02l-4.216-4.203"></path>
-                                <path class="EwE-Fa" d="m6.486 10.901c-2.42 0-4.381-1.956-4.381-4.368 0-2.413 1.961-4.369 4.381-4.369 2.42 0 4.381 1.956 4.381 4.369 0 2.413-1.961 4.368-4.381 4.368m0-10.835c-3.582 0-6.486 2.895-6.486 6.467 0 3.572 2.904 6.467 6.486 6.467 3.582 0 6.486-2.895 6.486-6.467 0-3.572-2.904-6.467-6.486-6.467"></path>
-                            </g>
-                        </svg>
-                    </button>
+                    
                 </div>             
-                <div class="loginDiv">
-                    <div class="loginButton d-flex bg-white mx-4 align-items-center justify-content-center">
-                        <div class="login d-flex justify-content-center">
-                            <a href="" class="loginLink tect-primary text-decoration-none">Login</a>
-                        </div>
-                    </div>
+                <div class="accountsDiv d-flex">
+                    <a href="" class="accountLink text-decoration-none text-dark">
+                       <img src="assets/images/accounts.png" class="" alt="" width="25" height="25">
+                       <span class="myAccount  ms-1">Account</span>
+                       <img src="assets/images/drop.png" class="ms-1" alt="" width="16" height="16"> 
+                   </a>
                 </div>
-                <div class="sellerDiv d-flex mx-4 ps-3">
-                    <a href="" class="sellerLink text-white text-decoration-none">Become a Seller</a>
-                </div>
-                <div class="moreDiv d-flex mx-3  pe-2">
-                    <div class="more d-flex">
-	               <a href="" class="moreLink text-decoration-none text-white">More</a>
-                    </div>                
-                   <svg width="4.7" height="8" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="Wto0b0">
-                       <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="-dC5Le"></path>
-                   </svg>              
-                </div> 
-                <div class="cartDiv d-flex align-items-center mx-3 ps-2">
+                 <div class="cartDiv d-flex text-dark align-items-center">
                     <div class="cart d-flex align-items-center">
-                        <a href=""  class="cartLink text-decoration-none">
-                            <svg class="GAbRIN" width="14" height="14" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-                                <path class="cziJ98" d="M15.32 2.405H4.887C3 2.405 2.46.805 2.46.805L2.257.21C2.208.085 2.083 0 1.946 0H.336C.1 0-.064.24.024.46l.644 1.945L3.11 9.767c.047.137.175.23.32.23h8.418l-.493 1.958H3.768l.002.003c-.017 0-.033-.003-.05-.003-1.06 0-1.92.86-1.92 1.92s.86 1.92 1.92 1.92c.99
-                                    0 1.805-.75 1.91-1.712l5.55.076c.12.922.91 1.636 1.867 1.636 1.04 0 1.885-.844 1.885-1.885 0-.866-.584-1.593-1.38-1.814l2.423-8.832c.12-.433-.206-.86-.655-.86" fill="#fff">
-                                </path>
-                             </svg>
-                            <span class="cartSpan text-white ms-1">Cart</span>
+                        <a href=""  class="cartLink text-decoration-none text-dark">
+                            <img src="assets/images/headcart.png" class="mb-1" alt=""  width="28" height="28"> 
+                             Cart
                          </a>
                     </div>
                 </div>
+                 <div class="sellerDiv d-flex">
+                    <a href="" class="sellerLink text-decoration-none text-dark">
+                        <img src="assets/images/headseller.png" class="ms-1" alt="" width="25" height="25">
+                         Become a Seller
+                    </a>
+                </div>
+                <div class="headDotdiv">
+                       <img src="assets/images/dots.png" class="ms-1" alt="" width="25" height="25">
+                </div>            
+            </div>         
+       </div>
+       <div class="bodyMaindiv d-flex">
+            <div class="bodyContents d-flex flex-column">
+                  <div class="topCategorydiv d-flex">
+                       <div class="categoryList d-flex justify-content-between w-100">
+                             <div class="itemDiv d-flex flex-column justify-content-center align-items-center">
+                                  <a href="" class="itemLink d-flex flex-column align-items-center text-decoration-none text-black">
+                                      <img src="assets/images/topoffers.webp" class="categoryImg" alt="">
+                                      <span class="categoryName mt-2">Top Offers</span>
+                                  </a>
+                             </div>
+                             <div class="itemDiv d-flex flex-column justify-content-center align-items-center">
+                                  <a href="" class="itemLink d-flex flex-column align-items-center text-decoration-none text-black">
+                                         <img src="assets/images/mobilesandtablets.webp" class="categoryImg" alt="">
+                                         <span class="categoryName mt-2">Mobiles & Tablets</span>
+                                  </a>
+                             </div>
+                             <div class="itemDiv d-flex flex-column  justify-content-center align-items-center">
+                                  <a href="" class="itemLink d-flex flex-column align-items-center text-decoration-none text-black">
+                                      <img src="assets/images/appliances.webp" class="categoryImg" alt="">
+                                      <span class="categoryName mt-2">TV & Appliances</span>
+                                  </a>
+                             </div>
+                             <div class="itemDiv d-flex flex-column  justify-content-center align-items-center">
+                                   <a href="" class="itemLink d-flex flex-column align-items-center text-decoration-none text-black">
+                                        <img src="assets/images/electronics.webp" class="categoryImg" alt="">
+                                        <span class="categoryName mt-2">Electronics</span>
+                                   </a>
+                             </div>
+                             <div class="itemDiv d-flex flex-column  justify-content-center align-items-center">
+                                  <a href="" class="itemLink d-flex flex-column align-items-center text-decoration-none text-black">
+                                       <img src="assets/images/fashion.webp" class="categoryImg" alt="">
+                                       <span class="categoryName mt-2">Fashion</span>
+                                  </a>
+                             </div>
+                             <div class="itemDiv d-flex flex-column  justify-content-center align-items-center">
+                                  <a href="" class="itemLink d-flex flex-column align-items-center text-decoration-none text-black">
+                                      <img src="assets/images/beauty.webp" class="categoryImg" alt="">
+                                      <span class="categoryName mt-2">Beauty</span>
+                                  </a>
+                             </div>
+                             <div class="itemDiv d-flex flex-column  justify-content-center align-items-center">
+                                   <a href="" class="itemLink d-flex flex-column align-items-center text-decoration-none text-black">
+                                       <img src="assets/images/kitchen.webp" class="categoryImg" alt="">
+                                       <span class="categoryName mt-2">Home & Kitchen</span>
+                                  </a>
+                             </div>
+                             <div class="itemDiv d-flex flex-column  justify-content-center align-items-center">
+                                  <a href="" class="itemLink d-flex flex-column align-items-center text-decoration-none text-black">
+                                       <img src="assets/images/furniture.webp" class="categoryImg" alt="">
+                                       <span class="categoryName mt-2">Furniture</span>
+                                  </a>
+                             </div>
+                             <div class="itemDiv d-flex flex-column  justify-content-center align-items-center">
+                                  <a href="" class="itemLink d-flex flex-column align-items-center text-decoration-none text-black">
+                                      <img src="assets/images/travel.webp" class="categoryImg" alt="">
+                                      <span class="categoryName mt-2">Travel</span>
+                                  </a>
+                             </div>
+                             <div class="itemDiv d-flex flex-column  justify-content-center align-items-center">
+                                  <a href="" class="itemLink d-flex flex-column align-items-center text-decoration-none text-black">
+                                       <img src="assets/images/grocery.webp" class="categoryImg" alt="">
+                                       <span class="categoryName mt-2">Grocery</span>
+                                   </a>
+                             </div>
+                       </div>
+                  </div>
+                  <div class="topAdddiv">
+                       <img src="assets/images/addone.webp" class="mt-3 w-100" alt="">
+                  </div>
+                  <div class="bestElectronicsdiv"> 
+                       <div class="electronicItemdiv">
+                            
+                       </div>
+                       <div class="electronicRightdiv">
+                       
+                       </div>
+                  </div>
             </div>
-            <div class="spaceDiv"></div>
-       </div>
-       <div class="bodyContents d-flex flex-column">
-       <div class="itemsDiv d-flex">
-           <div class="itemsList d-flex justify-content-between m-auto pe-4 align-items-center">
-               <span class="items">Electronics
-                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        width="8px" height="8px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;" xml:space="preserve">
-                         <g>
-                              <path d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
-                                  c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
-                                  c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/>
-                         </g>
-                   </svg>
-               </span>
-               <span class="items">TVs & Appliances
-                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        width="8px" height="8px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;" xml:space="preserve">
-                         <g>
-                              <path d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
-                                  c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
-                                  c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/>
-                         </g>
-                   </svg>
-               </span>
-               <span class="items">Men
-                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        width="8px" height="8px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;" xml:space="preserve">
-                         <g>
-                              <path d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
-                                  c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
-                                  c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/>
-                         </g>
-                   </svg>
-               </span>
-               <span class="items">Women
-                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        width="8px" height="8px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;" xml:space="preserve">
-                         <g>
-                              <path d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
-                                  c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
-                                  c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/>
-                         </g>
-                   </svg>
-               </span>
-               <span class="items mx-4">Baby & Kids
-                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        width="8px" height="8px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;" xml:space="preserve">
-                         <g>
-                              <path d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
-                                  c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
-                                  c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/>
-                         </g>
-                   </svg>
-               </span>
-               <span class="items">Home & Furniture
-                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        width="8px" height="8px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;" xml:space="preserve">
-                         <g>
-                              <path d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
-                                  c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
-                                  c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/>
-                         </g>
-                   </svg>
-               </span>
-               <span class="items">Sports, Books & More
-                   <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                        width="8px" height="8px" viewBox="0 0 451.847 451.847" style="enable-background:new 0 0 451.847 451.847;" xml:space="preserve">
-                         <g>
-                              <path d="M225.923,354.706c-8.098,0-16.195-3.092-22.369-9.263L9.27,151.157c-12.359-12.359-12.359-32.397,0-44.751
-                                  c12.354-12.354,32.388-12.354,44.748,0l171.905,171.915l171.906-171.909c12.359-12.354,32.391-12.354,44.744,0
-                                  c12.365,12.354,12.365,32.392,0,44.751L248.292,345.449C242.115,351.621,234.018,354.706,225.923,354.706z"/>
-                         </g>
-                   </svg>
-               </span>
-               <span class="items">
-                   Flights
-               </span>
-               <span class="items">
-                   Offer zone
-               </span>
-           </div>
-       </div>
+               
        </div>
        <div class="footerDiv d-flex flex-column bg-dark"> 
        <div class="footerContents d-flex flex-column flex-xl-row px-5 pt-5">

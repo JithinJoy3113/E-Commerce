@@ -7,6 +7,8 @@ overflow-y:scroll;
 .header{
 	height:56px;
         background:#2874f0;
+        position:sticky;
+        top:0px;
 }
 .spaceDiv{
         height:100%;
@@ -52,7 +54,7 @@ overflow-y:scroll;
 	font-weight:bold;
 }
 .sellerDiv{                  
-        min-width:140px;                 
+        min-width:145px;                 
 }
 .moreDiv{
         mix-width:60px;	
