@@ -9,20 +9,19 @@
     </head>
     <body>
         <div class="header d-flex">           
-             <div class="headerContents d-flex w-100 align-items-center justify-content-between">
+             <div class="headerContents d-flex w-100 align-items-center">
                 <div class="cartImageDiv d-flex  justify-content-end">
-                    <div class="imageDiv d-flex justify-content-center flex-column">
+                    <div class="imageDiv d-flex justify-content-center flex-column pb-1">
                         <a href="" class="imageLink">
                             <img src="assets/images/flipkartblue.svg" alt="" width="160" height="40" class= "">
                         </a>
                     </div>
                 </div>
                 <div class="searchDiv d-flex h-100 justify-content-between  align-items-center">
-                     <svg width="24" height="24" class=" searchButton" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Search Icon</title><path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 16L21 21" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                     <svg width="25" height="25" class=" searchButton" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><title>Search Icon</title><path d="M10.5 18C14.6421 18 18 14.6421 18 10.5C18 6.35786 14.6421 3 10.5 3C6.35786 3 3 6.35786 3 10.5C3 14.6421 6.35786 18 10.5 18Z" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path><path d="M16 16L21 21" stroke="#717478" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"></path></svg>
                     <div class="searchBarDiv d-flex">
                         <input type="text" placeholder="Search for Products, Brands and More" class="searchBar border-0">
-                    </div>
-                    
+                    </div>                    
                 </div>             
                 <div class="accountsDiv d-flex">
                     <a href="" class="accountLink text-decoration-none text-dark">
@@ -32,12 +31,9 @@
                    </a>
                 </div>
                  <div class="cartDiv d-flex text-dark align-items-center">
-                    <div class="cart d-flex align-items-center">
-                        <a href=""  class="cartLink text-decoration-none text-dark">
-                            <img src="assets/images/headcart.png" class="mb-1" alt=""  width="28" height="28"> 
-                             Cart
-                         </a>
-                    </div>
+                     <a href=""  class="cartLink text-decoration-none text-dark">
+                         <img src="assets/images/headcart.png" class="mb-1" alt=""  width="28" height="28">Cart
+                     </a>                   
                 </div>
                  <div class="sellerDiv d-flex">
                     <a href="" class="sellerLink text-decoration-none text-dark">
@@ -50,7 +46,7 @@
                 </div>            
             </div>         
        </div>
-       <div class="bodyMaindiv d-flex">
+       <div class="bodyMaindiv">
             <div class="bodyContents d-flex flex-column">
                   <div class="topCategorydiv d-flex">
                        <div class="categoryList d-flex justify-content-between w-100">
@@ -116,19 +112,278 @@
                              </div>
                        </div>
                   </div>
-                  <div class="topAdddiv">
-                       <img src="assets/images/addone.webp" class="mt-3 w-100" alt="">
+                  <div class="topAdddiv d-flex mb-3 w-100">
+                       <img src="assets/images/addone.webp" class="addImg mt-3" alt="">
                   </div>
-                  <div class="bestElectronicsdiv"> 
-                       <div class="electronicItemdiv">
-                            
+            
+                  <div class="bestElectronicsdiv d-flex bg-white"> 
+                       <div class="electronicItemdiv d-flex flex-column">
+                          <div class="slideHead d-flex justify-content-between mt-1">
+                             <span class="elctronicsHead">Best of Electronics</span>
+                             <img src="assets/images/bluearrow.png" class="electronicArrow  me-3" alt="">
+                          </div>
+                          <div class="slidingImagesdiv d-flex">
+                             <div class="electronicProductdiv">
+                                 <div class="productDiv">
+                                     <div class="productDisplaydiv d-flex flex-column">
+                                         <div class="productImgdiv d-flex justify-content-center zoomHover">
+                                            <img src="assets/images/headphone.webp" class="" alt="" height="186">
+                                         </div>
+                                         <div class="productNamediv d-flex flex-column">
+                                            <span class="productName">Best Truewireless Headphones</span>
+                                            <span class="productName mx-auto"><b>Grab Now</b></span>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="electronicProductdiv">
+                                <div class="productDiv">
+                                    <div class="productDisplaydiv d-flex flex-column">
+                                        <div class="productImgdiv d-flex justify-content-center zoomHover">
+                                           <img src="assets/images/speaker.webp" class="" alt="" height="186">
+                                         </div>
+                                         <div class="productNamediv d-flex flex-column">
+                                            <span class="productName mx-auto">Best Selling Mobile Speakers</span>
+                                            <span class="productName mx-auto"><b>From ₹499*</b></span>
+                                         </div>
+                                    </div>
+                                </div>
+                             </div> 
+                              <div class="electronicProductdiv">
+                                <div class="productDiv">
+                                    <div class="productDisplaydiv d-flex flex-column">
+                                        <div class="productImgdiv d-flex justify-content-center zoomHover">
+                                           <img src="assets/images/shaver.webp" class="" alt="" height="186">
+                                         </div>
+                                         <div class="productNamediv d-flex flex-column">
+                                            <span class="productName mx-auto">Best of Shavers</span>
+                                            <span class="productName mx-auto"><b>From ₹1300</b></span>
+                                         </div>
+                                    </div>
+                                </div>
+                             </div>
+                              <div class="electronicProductdiv">
+                                <div class="productDiv">
+                                    <div class="productDisplaydiv d-flex flex-column">
+                                        <div class="productImgdiv d-flex justify-content-center zoomHover">
+                                           <img src="assets/images/sandisk.webp" class="" alt="" height="186">
+                                         </div>
+                                         <div class="productNamediv d-flex flex-column">
+                                            <span class="productName mx-auto">Sandisk Extreme Portable</span>
+                                            <span class="productName mx-auto"><b>From ₹2678</b></span>
+                                         </div>
+                                    </div>
+                                </div>
+                             </div>
+                              <div class="electronicProductdiv">
+                                <div class="productDiv">
+                                    <div class="productDisplaydiv d-flex flex-column">
+                                        <div class="productImgdiv d-flex justify-content-center zoomHover">
+                                           <img src="assets/images/watch.webp" class="" alt="" height="186">
+                                         </div>
+                                         <div class="productNamediv d-flex flex-column">
+                                            <span class="productName mx-auto">Noice Smartwatches</span>
+                                            <span class="productName mx-auto"><b>From ₹8000</b></span>
+                                         </div>
+                                    </div>
+                                </div>
+                             </div>                             
+                          </div>
                        </div>
-                       <div class="electronicRightdiv">
-                       
+                       <div class="electronicRightdiv d-flex">
+                           <img src="assets/images/electroniclap.webp" class="electronicLap mt-3" alt="" width="209" height="320">
                        </div>
                   </div>
-            </div>
-               
+                  <div class="addImagesDiv d-flex flex-column w-100 mt-3">
+                      <div class="imageRow1 d-flex">
+                         <div class="imageCol1">
+                             <img src="assets/images/img1.webp" class="addImg" alt="" width="" height="">
+                         </div>
+                         <div class="imageCol2">
+                             <img src="assets/images/img2.webp" class="addImg" alt="" width="" height="">
+                         </div>
+                         <div class="imageCol3">
+                             <img src="assets/images/img3.webp" class="addImg" alt="" width="" height="">
+                         </div>
+                      </div>
+                      <div class="imageRow2 d-flex">
+                         <div class="imageCol1">
+                             <img src="assets/images/img4.webp" class="addImg" alt="" width="" height="">
+                         </div>
+                         <div class="imageCol2">
+                             <img src="assets/images/img5.webp" class="addImg" alt="" width="" height="">
+                         </div>
+                         <div class="imageCol3">
+                             <img src="assets/images/img6.webp" class="addImg" alt="" width="" height="">
+                         </div>
+                      </div>
+                      <div class="imageRow3 d-flex">
+                         <div class="imageCol1">
+                             <img src="assets/images/img7.webp" class="addImg" alt="" width="" height="">
+                         </div>
+                         <div class="imageCol2">
+                             <img src="assets/images/img8.webp" class="addImg" alt="" width="" height="">
+                         </div>
+                         <div class="imageCol3">
+                             <img src="assets/images/img9.webp" class="addImg" alt="" width="" height="">
+                         </div>
+                      </div>                       
+                  </div>
+                  <div class="bestElectronicsdiv d-flex bg-white mt-2"> 
+                       <div class="phoneItemdiv d-flex flex-column">
+                          <div class="slideHead d-flex justify-content-between mt-1">
+                             <span class="elctronicsHead">Deals on Smartphones</span>
+                             <img src="assets/images/bluearrow.png" class="electronicArrow  me-3" alt="">
+                          </div>
+                          <div class="slidingImagesdiv d-flex">
+                             <div class="electronicProductdiv">
+                                 <div class="productDiv">
+                                     <div class="productDisplaydiv d-flex flex-column">
+                                         <div class="productImgdiv d-flex justify-content-center zoomHover">
+                                            <img src="assets/images/moto.webp" class="" alt="" height="186">
+                                         </div>
+                                         <div class="productNamediv d-flex flex-column">
+                                            <span class="productName mx-auto">Moto G85 5G</span>
+                                            <span class="productName mx-auto"><b>50MP OIS Cam|6000mAh</b></span>
+                                         </div>
+                                     </div>
+                                 </div>
+                             </div>
+                             <div class="electronicProductdiv">
+                                <div class="productDiv">
+                                    <div class="productDisplaydiv d-flex flex-column">
+                                        <div class="productImgdiv d-flex justify-content-center zoomHover">
+                                           <img src="assets/images/motoedge.webp" class="" alt="" height="186">
+                                         </div>
+                                         <div class="productNamediv d-flex flex-column">
+                                            <span class="productName mx-auto">Moto edge 50 Fusion</span>
+                                            <span class="productName mx-auto"><b>144Hz Curved Display</b></span>
+                                         </div>
+                                    </div>
+                                </div>
+                             </div> 
+                              <div class="electronicProductdiv">
+                                <div class="productDiv">
+                                    <div class="productDisplaydiv d-flex flex-column">
+                                        <div class="productImgdiv d-flex justify-content-center zoomHover">
+                                           <img src="assets/images/cmf.webp" class="" alt="" height="186">
+                                         </div>
+                                         <div class="productNamediv d-flex flex-column">
+                                            <span class="productName mx-auto">CMF Phone 1</span>
+                                            <span class="productName mx-auto"><b>Display 17.02 cm</b></span>
+                                         </div>
+                                    </div>
+                                </div>
+                             </div>
+                              <div class="electronicProductdiv">
+                                <div class="productDiv">
+                                    <div class="productDisplaydiv d-flex flex-column">
+                                        <div class="productImgdiv d-flex justify-content-center zoomHover">
+                                           <img src="assets/images/a40.webp" class="" alt="" height="186">
+                                         </div>
+                                         <div class="productNamediv d-flex flex-column">
+                                            <span class="productName mx-auto">Samsung A14</span>
+                                            <span class="productName mx-auto"><b>AnTuTu Score435k+<10k</b></span>
+                                         </div>
+                                    </div>
+                                </div>
+                             </div>
+                              <div class="electronicProductdiv">
+                                <div class="productDiv">
+                                    <div class="productDisplaydiv d-flex flex-column">
+                                        <div class="productImgdiv d-flex justify-content-center zoomHover">
+                                           <img src="assets/images/realme.webp" class="" alt="" height="186">
+                                         </div>
+                                         <div class="productNamediv d-flex flex-column">
+                                            <span class="productName mx-auto">realme P1 5G</span>
+                                            <span class="productName mx-auto"><b>Dimensity7050 5G</b></span>
+                                         </div>
+                                    </div>
+                                </div>
+                             </div> 
+                             <div class="electronicProductdiv">
+                                <div class="productDiv">
+                                    <div class="productDisplaydiv d-flex flex-column">
+                                        <div class="productImgdiv d-flex justify-content-center zoomHover">
+                                           <img src="assets/images/s23.webp" class="" alt="" height="186">
+                                         </div>
+                                         <div class="productNamediv d-flex flex-column">
+                                            <span class="productName mx-auto">Samsung S23 FE</span>
+                                            <span class="productName mx-auto"><b>Pric Lock Amount ₹999</b></span>
+                                         </div>
+                                    </div>
+                                </div>
+                             </div>                             
+                          </div>
+                       </div>
+                  </div>
+                  <div class="featuredBrandsdiv d-flex flex-column bg-white mt-3">
+                     <div class="brandHead d-flex mt-1">
+                         <span class="elctronicsHead">Featured Brands</span>
+                     </div>
+                     <div class="brandRow d-flex">
+                        <div class="brandCol">
+                            <img src="assets/images/sachin.webp" class="addImg" alt="" width="" height="">
+                        </div>
+                        <div class="brandCol">
+                            <img src="assets/images/jbl.webp" class="addImg" alt="" width="" height="">
+                        </div>
+                        <div class="brandCol">
+                            <img src="assets/images/boat.webp" class="addImg" alt="" width="" height="">
+                        </div>
+                     </div>                  
+                  </div>
+                  <div class="suggestionDiv d-flex mt-3 bg-white">
+                     <div class="suggestDiv d-flex flex-column ">
+                        <div class="suggestHead d-flex justify-content-between mt-1">
+                           <span class="elctronicsHead">Suggested for You</span>
+                           <img src="assets/images/bluearrow.png" class="electronicArrow  me-3" alt="">
+                        </div>
+                        <div class="suggestItemsdiv d-flex">
+                           <div class="suggestCol1 d-flex flex-column">
+                               <img src="assets/images/suggestimgone.webp" class="suggestImgone" alt="">
+                               <div class="suggestItemdetail d-flex flex-column">
+                                  <span class="suggestName text-truncate">Red Tape Sports Walking Shoes for Men</span>
+                                  <div class="suggestSpan d-flex justify-content-center">
+                                     <span class="actualAmount text-decoration-line-through">₹5000</span>
+                                     <span class="amount ms-1"><b>₹3000</b></span>
+                                     <span class="off text-success ms-2"><b>23% off</b></span>
+                                  </div>
+                                  <span class="emiDiv text-success mx-auto"><b>EMI from ₹125/month</b></span>                                 
+                               </div>
+                           </div>
+                           <div class="suggestCol2 d-flex flex-column mt-3">
+                               <div class="suggestRighttop pb-2">
+                                   <img src="assets/images/suggestimgtwo.webp" class="suggestImgtwo" alt="">
+                                   <div class="suggestItemdetail d-flex flex-column">
+                                      <span class="suggestName text-truncate">Red Tape Sports Walking Shoes for Men</span>
+                                      <div class="suggestSpan d-flex justify-content-center">
+                                         <span class="actualAmount text-decoration-line-through">₹5000</span>
+                                         <span class="amount ms-1"><b>₹3000</b></span>
+                                         <span class="off text-success ms-2"><b>23% off</b></span>
+                                      </div>                                                                
+                                   </div>
+                               </div>
+                               <div class="suggestRight mt-3">
+                                   <img src="assets/images/suggestimgthree.webp" class="suggestImgtwo" alt="">
+                                   <div class="suggestItemdetail d-flex flex-column">
+                                      <span class="suggestName text-truncate">Red Tape Sports Walking Shoes for Men</span>
+                                      <div class="suggestSpan d-flex justify-content-center">
+                                         <span class="actualAmount text-decoration-line-through">₹5000</span>
+                                         <span class="amount ms-1"><b>₹3000</b></span>
+                                         <span class="off text-success ms-2"><b>23% off</b></span>
+                                      </div>                                                                
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                     
+                     </div>
+                     <div class="suggestImgdiv  ms-auto">
+                        <img src="assets/images/suggestimg.webp" class="suggestImg" alt="">
+                     </div>
+                  </div>
+            </div>              
        </div>
        <div class="footerDiv d-flex flex-column bg-dark"> 
        <div class="footerContents d-flex flex-column flex-xl-row px-5 pt-5">
