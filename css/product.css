@@ -1,93 +1,701 @@
-.productDetailsdiv{
-	width:66%;
+body{
+    overflow-x:hidden;
 }
-.productLeft{
-	width:41%;
+.productDetailsdiv {
+    width: 62%;
 }
-.productBodydiv{
-	padding:16px;
+
+.productBodydiv {
+    padding: 16px;
 }
-.productImg{
-	width:64px;
-        height:64px;
+.productLeft {
+    width:40%;
+    position:sticky;
+    top:60px;
+    height:150vh;
 }
-.productButtondiv{
-	margin-left:64px;
-        margin-top:12px;
+.productImg {
+    width: 64px;
+    height: 64px;
 }
-.cartButtondiv{
-	background:#ff9f00;
-        padding: 18px 8px;
-        border-radius:2px;
-        height:56px;
+.productButtondiv {
+    margin-left: 64px;
+    margin-top: 12px;
 }
-.cartBtn{
-	background:#ff9f00;
-        font-size:15px;
-        font-weight:bold;
-        width:98%;
+.cartButtondiv {
+    background: #ff9f00;
+    padding: 18px 8px;
+    border-radius: 2px;
+    height: 56px;
 }
-.buyButtondiv{
-	background:#fb641b;
-        padding: 18px 8px;
-        border-radius:2px;
-        height:56px;
+.cartBtn {
+    background: #ff9f00;
+    font-size: 15px;
+    font-weight: bold;
+    width: 98%;
 }
-.buy{
-	background:#fb641b;
-        font-size:15px;
-        font-weight:bold;
-        width:98%;
+.buyButtondiv {
+    background: #fb641b;
+    padding: 18px 8px;
+    border-radius: 2px;
+    height: 56px;
 }
-.productDetailsdiv{
-	padding-left:24px;
+.buy {
+    background: #fb641b;
+    font-size: 15px;
+    font-weight: bold;
+    width: 98%;
 }
-.pathLink{
-	font-size:12px;
-        color:#878787;      
+.productDetailsdiv {
+    padding-left: 24px;
+  
 }
-.compare,.share{
-	font-size:13.5px;
+.pathLink {
+    font-size: 12px;
+    color: #878787;
 }
-.shareDiv:hover{
-        color:#2874f0;
+.compare,
+.share {
+    font-size: 13.5px;
 }
-.shareIcon{
-	fill:#c2c2c2;
+.shareDiv:hover {
+    color: #2874f0;
 }
-.shareIcon:hover{
-        fill:#2874f0;
+.shareIcon {
+    fill: #c2c2c2;
 }
-.headingDiv{
-        margin-top:7px;
-	font-size:17.5px;
+.shareIcon:hover {
+    fill: #2874f0;
 }
-.ratingSpan{
-	font-size:13.5px;
-        color:#878787;
-        font-weight:bold;
+.headingDiv {
+    margin-top: 7px;
+    font-size: 17.5px;
 }
-.discount{
+.ratingSpan {
+    font-size: 13.5px;
+    color: #878787;
+    font-weight: bold;
+}
+.discount {
+    font-size: 14px;
+    font-weight: bold;
+}
+.price {
+    font-size: 28px;
+}
+.actualAmount {
+    font-size: 16px;
+    color: #878787;
+    margin-left: 12px;
+}
+.off {
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 12px;
+}
+.fee,
+.offerSpan,
+.offerView {
+    font-size: 14px;
+}
+.offerHead {
+    font-size: 15px;
+    font-weight: bold;
+}
+.withoutExchangediv {
+    padding: 24px 0px;
+}
+.exchangeTable {
+    width: 400px;
+    border: 1px solid #e0e0e0;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.tableRowone {
+    border-bottom: 1px solid #e0e0e0;
+    padding: 16px;
+}
+.buyExchange,
+.withExchangediv {
+    margin-left: 18px;
+    width: 100%;
+}
+.spanOne {
+    font-size: 14px;
+}
+.spanTwo {
+    font-size: 14px;
+    font-weight: bold;
+}
+.buyGrey {
+    color: #878787;
+    cursor: not-allowed;
+}
+.checkPin {
+    padding-top: 10px;
+    margin-left: 31px;
+}
+.forColor {
+    background-color: #f5faff;
+}
+.warrantyDiv {
+    font-size: 14px;
+    margin-top: 24px;
+}
+.logoDiv {
+    width: 76px;
+    height: 32px;
+    border: 1px solid #f0f0f0;
+}
+.oppoImg {
+    width: 100%;
+    padding: 4px;
+    margin: 3px 0px;
+}
+.warrantyText {
+    margin-left: 35px;
+}
+.warrantySpan {
+    font-size: 14px;
+    line-height: 2;
+}
+.specRow1 {
+    margin-top: 16px;
+}
+.specImg {
+    width: 100%;
+    height: 100%;
+}
+.specImgdiv {
+    height: 52px;
+    width: 52px;
+    margin: 0 12px 6px 0;
+    border-radius: 2px;
+    border: 2px solid #e0e0e0;
+    padding: 0px 4px;
+}
+.colorSpan {
+    font-size: 14px;
+    margin-top: 2px;
+    font-weight: bold;
+    color: #878787;
+}
+.specImgrow,
+.storageRow,
+.ramRow {
+    margin-left: 73px;
+}
+.colorDiv,
+.storageDiv,
+.easyPaymentdiv,
+.highlightDiv {
+    width: 50%;
+}
+.storage {
+    margin: 0 12px 4px 0;
+    border: 2px solid #2874f0;
+    color: #2874f0;
+    padding: 6px 10px;
+    border-radius: 2px;
+    min-width: 36px;
+    font-size: 14px;
+    font-weigth: bold;
+    height: 34px;
+}
+.storageGrey {
+    margin: 0 12px 4px 0;
+    border: 2px dotted #c2c2c2;
+    opacity: 0.6;
+    color: #878787;
+    padding: 6px 10px;
+    border-radius: 2px;
+    min-width: 36px;
+    font-size: 14px;
+    font-weigth: bold;
+    height: 34px;
+}
+.ram {
+    margin: 0 12px 4px 0;
+    border: 2px solid #2874f0;
+    color: #2874f0;
+    padding: 6px 10px;
+    border-radius: 2px;
+    min-width: 36px;
+    font-size: 14px;
+    font-weigth: bold;
+    height: 34px;
+}
+.ramGrey {
+    margin: 0 12px 4px 0;
+    border: 2px dotted #c2c2c2;
+    opacity: 0.6;
+    color: #878787;
+    padding: 6px 10px;
+    border-radius: 2px;
+    min-width: 36px;
+    font-size: 14px;
+    font-weigth: bold;
+    height: 34px;
+}
+.ramDiv {
+    padding-top: 16px;
+}
+.deliveryPin {
+    margin-top: 24px;
+}
+.pinInput {
+    font-weight: bold;
+    font-size: 14px;
+    color: #878787;
+    padding-left: 6px;
+}
+.pinInputdiv {
+    border-bottom: 2px solid #2874f0;
+}
+.enterPindiv {
+    background: black;
+    color: white;
+    padding: 8px;
+    font-size: 12px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.input:foucs {
+    display: none;
+}
+.checkSpan,
+.deliveryDate,
+.ratingButton,.similarPrice{
+    font-weight: bold;
+    font-size: 14px;
+}
+.pinInputdiv {
+    margin-left: 50px;
+}
+.expectedDeliveydiv {
+    margin: 8px 0 0 105px;
+}
+.deliveryFree {
+    color: #878787;
+}
+.orderDate {
+    font-size: 12px;
+    margin-bottom: 8px;
+}
+.highlightLi {
+    font-size: 14px;
+    padding: 0 0 8px 0px;
+}
+.highlightLi::marker {
+    color: #878787;
+}
+.highlightView {
+    list-style-type: none;
+}
+.easy {
+    max-width: 95px;
+}
+.highlightMaindiv {
+    padding-top: 24px;
+}
+.sellerDetailsdiv {
+    margin-left: 46px;
+}
+.superCoindiv {
+    padding: 24px 0px 0px;
+    width: 35%;
+    margin-left: 25px;
+}
+.discriptionDiv {
+    font-size: 14px;
+    margin-top: 24px;
+}
+.discription {
+    margin-left: 36px;
+}
+.productDecriptiondiv,
+.reviewsRatingdiv {
+    margin-top: 24px;
+    border-radius: 2px 2px 0 0;
+    border: 1px solid #f0f0f0;
+}
+.descriptionHead {
+    padding: 24px;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 1px solid #f0f0f0;
+}
+.ultraThindiv,
+.pocketDiv {
+    padding: 24px 24px 10px 24px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.ultraLeft,
+.pocketRight {
+    width: 168px;
+}
+.ultraRight {
+    margin-left: 32px;
+}
+.ultraHead {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.ultraDescription {
+    font-size: 14px;
+    line-height: 1.29;
+}
+.viewFeatureslink {
+    margin: 24px;
+    font-size: 16px;
+}
+.generalDiv {
+    border-bottom: 1px solid #f0f0f0;
+    padding: 24px 24px 0px 24px;
+}
+.generalHead {
+    padding-bottom: 16px;
+    font-size: 18px;
+}
+.tableDataleft,
+.tableDataright {
+    padding-bottom: 16px;
+}
+.tableDataleft,
+.reviewSpan {
+    font-size: 14px;
+    color: #878787;
+}
+.reviewSpan{
+    min-width:110px;
+}
+.tableDataright {
+    padding-left: 100px;
+    font-size: 14px;
+}
+.reviewHeaddiv {
+    padding: 24px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.rateDiv {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.26);
+    padding: 16px 36px;
+    cursor: pointer;
+}
+.progressBardiv {
+    border-right: 1px solid #f0f0f0;
+}
+.progressBar {
+    width: 114px;
+    height: 5px;
+    border-radius: 50px;
+    background-color: #f0f0f0;
+}
+.progressColor {
+    height: 5px;
+    border-radius: 50px;
+}
+.colorOne {
+    width: 100%;
+    background-color: green;
+}
+.colorTwo {
+    width: 40%;
+    background-color: green;
+}
+.colorThree {
+    width: 20%;
+    background-color: green;
+}
+.colorFour {
+    width: 5%;
+    background-color: orange;
+}
+.colorFive {
+    width: 10%;
+    background-color: red;
+}
+.starRatenum {
+    font-size: 32px;
+}
+.starRate {
+    font-size: 28px;
+    padding: 0 0 0 4px;
+}
+.ratingDiv,
+.reviewPhotosdiv {
+    padding: 0px 24px 24px 24px;
+}
+.reviewPhotosdiv{
+    overflow:hidden;
+    overflow-x:scroll;
+    whitespace:nowrap;
+}
+.progressStar,
+.customerReviewspan {
+    font-size: 12.5px;
+}
+.progressNum,
+.customerLocation,
+.likeCount {
+    font-size: 12.5px;
+    color: #878787;
+}
+.progressImg {
+    margin: 12px 20px 0;
+}
+.progressCategory,
+.customerName,.similarOff{
+    font-size: 12.5px;
+    font-weight: bold;
+}
+.reviewPhotosdiv,
+.customerReviewdiv {
+    border-bottom: 1px solid #f0f0f0;
+}
+.customerReviewdiv {
+    padding: 24px;
+}
+.reviewHead {
+    font-size: 13px;
+    font-weight: bold;
+}
+.similarProductcol{
+    padding:16px;
+    width: 220px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer
+}
+.similarImage{
+    max-width:150px;
+}
+.productsReviewspan{
+    font-size:14px;
+    color: #878787;
+    font-weight:bold;
+}
+.similarProductsrow{
+    overflow-x:scroll;
+    white-space:nowrap;
+}
+.similarProductsrow::-webkit-scrollbar{
+    display:none;
+}
+@media screen and (max-width: 760px) {
+    .productLeft,
+    .headingDiv,
+    .productDetailsdiv,
+    .productMainimg,
+    .productImagesdivRight, 
+    .highlightDiv,
+    .easyPaymentdiv{
+        width: 100%;
+    }
+    .productLeft{
+        position:unset;
+        height:auto; 
+     }
+    .colerType{
+	font-weight:bold;
+    }
+    .mainImg {
+       display:block;
+       margin-left:auto;
+       margin-right:auto;
+       width:50%;
+    }
+    .productImgdiv {
+        padding-bottom: 20px;
+        background: white;
+    }
+    .productDetailsdiv,
+    .productBodydiv,.productImagesdivRight{
+        padding: 0px !important;
+    }
+    .productBodydiv {
+        background-color:white;
+    }
+    .selectVarient {
+        background: white;
+        padding: 16px 30px;
+        border-bottom: 1px solid #f0f0f0;
+    }
+    .mobileSelectdiv {
+        margin-top: 5px;
+    }
+    .selectColorspan,.selectVarient{
+	font-size: 15px;
+    }
+    .colorNum{
+        color:rgb(135 135 135);
+        font-size:13px;  
+    }
+    .headingDiv{
+ 	font-size: 16px;
+    }
+    .ratingSpan{
 	font-size:14px;
-        font-weight:bold;       
+        color:rgb(42, 85, 229);
+        font-weight:normal;
+    }
+    .off,.actualAmount,.price{
+        font-size:20px;
+    }
+    .off{
+	 margin-left: 0px;
+    }
+    .price{
+         margin-left:10px;
+         font-weight:bold;
+    }
+     .withoutExchangediv {
+     	 padding: 24px 30px;
+         background:white;
+    }
+    .exchangeTable {
+         width: 100%;
+         border: 1px solid #e0e0e0;
+         font-size: 15px;
+         border-radius: 2px;
+    }
+    .warrantyDiv {
+        background:white;
+        margin-top: 0px;
+        padding:0 30px;
+    }
+    .specDiv,
+    .deliveryPindiv,
+    .highlightMaindiv,
+    .mobileDetailsdiv,
+    .productSeller,
+    .discriptionDiv {
+	padding:0 30px;
+    }
+    .easyPaymentdiv > .highlightUl{
+        margin-left:50px;
+    }
+    .highlightDiv > .highlightUl{
+        margin-left:78px !important;
+    }
+    .specImgrow,
+    .storageRow,
+    .ramRow,{
+        margin-left: 40px;
+    }
+    .sellerDetailsdiv{
+        margin-left: 110px;
+    }
+    .reviewPhotosdiv{
+        overflow:hidden;
+        overflow-x:scroll;
+        whitespace:nowrap;
+    }
+    .productButtondiv {
+        margin-left: 0px;
+    }
+     
 }
-.price{
-	font-size:28px;
-}
-.actualAmount{
-	font-size:16px;
-        color:#878787;
-        margin-left:12px;
-}
-.off{
-	font-size:15px;
-        font-weight:bold;
-	margin-left:12px;
-}
-.fee,.offerSpan,.offerView{
+@media screen and (max-width: 576px) {
+    .productButtondiv{
+         background:white;
+         position:fixed;
+         bottom:0px;
+         height: 67px;
+         width:100%;    
+
+    }
+    .productMainimg{
+         padding :0 10px;
+    }
+    .payButtondiv{
+	border-color: rgb(213, 215, 219);
+        border-width: 1px;
+        border-radius: 4px;
+        background-color: rgb(255, 255, 255);
+        padding: 0px 8px;
+        height: 100%;
+        width: 40vw;
+    }
+    .buyButtondiv{
+        background-color: rgb(255, 194, 0);
+        border-radius: 4px;
+        padding: 12px 8px;
+        height: 100%;
+        width: 40vw;       
+    }
+    .mainImg {
+       display:block;
+       margin-left:auto;
+       margin-right:auto;
+       width:100%;
+    }
+    .freeDeliver{
+	font-size:13px;
+    }
+    .sellerFinddiv{
+	padding:16px 0px;
+    }
+    .findSeller{
 	font-size:14px;
-}
-.offerHead{
+    }
+    .findPin {
+	padding: 10px 16px;
+        font-size:14px;
+        border: 1px solid  #878787;
+        border-radius:3px;
+    }
+    .deliveryCharge,.ifOrdered{
+        font-weight:normal;
+        color: #878787;
+    }
+    .ifOrderedcolor {
+	font-weight:normal;
+	color:rgb(199 0 85);
+    }
+    .replacementDiv{
+	min-width:123px;
+        max-width:123px;
+    }
+    .replacementSpan{
+        font-size:12px;
+    }
+    .oppoImg{
+        width:72px;
+    }
+    .warrantyText{
+        margin-left: 15px;
+    }
+    .warrantySpan {
+       font-size: 12px;
+       line-height: 1.5;
+    }
+    .manufactureWarrantydiv{
+        padding:30px 0px;
+        align-items:center;
+    }
+    .otherHighlightsdiv{
+	padding:0px 30px 20px;
+    }
+    .part{
+	color: rgba(113,116,120,1.00);
+        font-size:15px;
+    }
+    .capability{
 	font-size:15px;
-        font-weight:bold;  
+    }
+    .otherHighlightsHead{
+	font-size:17px;
+        font-weight:bold;
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .tableDataleft{
+	width:40%;
+    }
+    .tableDataright{
+	padding-left:10px
+    }
+
 }
