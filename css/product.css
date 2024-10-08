@@ -1,5 +1,5 @@
-body{
-    overflow-x:hidden;
+body {
+    overflow-x: hidden;
 }
 .productDetailsdiv {
     width: 62%;
@@ -9,10 +9,10 @@ body{
     padding: 16px;
 }
 .productLeft {
-    width:40%;
-    position:sticky;
-    top:60px;
-    height:150vh;
+    width: 40%;
+    position: sticky;
+    top: 60px;
+    height: 100%;
 }
 .productImg {
     width: 64px;
@@ -48,7 +48,6 @@ body{
 }
 .productDetailsdiv {
     padding-left: 24px;
-  
 }
 .pathLink {
     font-size: 12px;
@@ -95,7 +94,8 @@ body{
 }
 .fee,
 .offerSpan,
-.offerView {
+.offerView,
+.answers {
     font-size: 14px;
 }
 .offerHead {
@@ -199,7 +199,7 @@ body{
     border-radius: 2px;
     min-width: 36px;
     font-size: 14px;
-    font-weigth: bold;
+    font-weight: bold;
     height: 34px;
 }
 .storageGrey {
@@ -211,7 +211,7 @@ body{
     border-radius: 2px;
     min-width: 36px;
     font-size: 14px;
-    font-weigth: bold;
+    font-weight: bold;
     height: 34px;
 }
 .ram {
@@ -222,7 +222,7 @@ body{
     border-radius: 2px;
     min-width: 36px;
     font-size: 14px;
-    font-weigth: bold;
+    font-weight: bold;
     height: 34px;
 }
 .ramGrey {
@@ -234,7 +234,7 @@ body{
     border-radius: 2px;
     min-width: 36px;
     font-size: 14px;
-    font-weigth: bold;
+    font-weight: bold;
     height: 34px;
 }
 .ramDiv {
@@ -260,12 +260,13 @@ body{
     border-radius: 3px;
     cursor: pointer;
 }
-.input:foucs {
+.input:focus {
     display: none;
 }
 .checkSpan,
 .deliveryDate,
-.ratingButton,.similarPrice{
+.ratingButton,
+.similarPrice {
     font-weight: bold;
     font-size: 14px;
 }
@@ -314,12 +315,14 @@ body{
     margin-left: 36px;
 }
 .productDecriptiondiv,
-.reviewsRatingdiv {
+.reviewsRatingdiv,
+.questionAnswerdiv {
     margin-top: 24px;
     border-radius: 2px 2px 0 0;
     border: 1px solid #f0f0f0;
 }
-.descriptionHead {
+.descriptionHead,
+.questionAnswerrow {
     padding: 24px;
     font-size: 24px;
     font-weight: bold;
@@ -366,8 +369,8 @@ body{
     font-size: 14px;
     color: #878787;
 }
-.reviewSpan{
-    min-width:110px;
+.reviewSpan {
+    min-width: 110px;
 }
 .tableDataright {
     padding-left: 100px;
@@ -427,10 +430,13 @@ body{
 .reviewPhotosdiv {
     padding: 0px 24px 24px 24px;
 }
-.reviewPhotosdiv{
-    overflow:hidden;
-    overflow-x:scroll;
-    whitespace:nowrap;
+.reviewPhotosdiv {
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.reviewPhotosdiv::-webkit-scrollbar {
+    display: none;
 }
 .progressStar,
 .customerReviewspan {
@@ -438,7 +444,8 @@ body{
 }
 .progressNum,
 .customerLocation,
-.likeCount {
+.likeCount,
+.customerName {
     font-size: 12.5px;
     color: #878787;
 }
@@ -446,7 +453,8 @@ body{
     margin: 12px 20px 0;
 }
 .progressCategory,
-.customerName,.similarOff{
+.customerName,
+.similarOff {
     font-size: 12.5px;
     font-weight: bold;
 }
@@ -457,65 +465,99 @@ body{
 .customerReviewdiv {
     padding: 24px;
 }
-.reviewHead {
+.reviewHead,
+.questions {
     font-size: 13px;
     font-weight: bold;
 }
-.similarProductcol{
-    padding:16px;
-    width: 220px;
+.customerQuestiondiv {
+    padding: 10px 24px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.similarProductcol {
+    padding: 16px;
+    min-width: 220px;
+    max-width: 220px;
     border: 1px solid #e0e0e0;
     border-radius: 4px;
-    cursor: pointer
+    cursor: pointer;
 }
-.similarImage{
-    max-width:150px;
+.similarProductcol:hover > .productDiscriptionsdiv > .productsNamespan {
+    color: #2874f0;
 }
-.productsReviewspan{
-    font-size:14px;
+
+.similarProductshead {
+    font-weight: bold;
+    padding: 20px;
+    font-size: 22px;
+}
+.similarImage {
+    max-width: 150px;
+}
+.productsReviewspan,
+.safeBottom {
+    font-size: 14px;
     color: #878787;
-    font-weight:bold;
+    font-weight: bold;
 }
-.similarProductsrow{
-    overflow-x:scroll;
-    white-space:nowrap;
+.similarProductsrow {
+    overflow-x: scroll;
+    white-space: nowrap;
 }
-.similarProductsrow::-webkit-scrollbar{
-    display:none;
+.bottomContentsdiv {
+    padding: 25px;
+}
+.similarProductsrow::-webkit-scrollbar {
+    display: none;
+}
+.bottomHead {
+    color: #848484;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 14px;
+    padding: 14px 0;
+}
+.linkSpan {
+    color: #848484;
+    font-size: 12px;
+}
+.questionAnswerrow {
+    padding: 24px;
 }
 @media screen and (max-width: 760px) {
     .productLeft,
     .headingDiv,
     .productDetailsdiv,
     .productMainimg,
-    .productImagesdivRight, 
+    .productImagesdivRight,
     .highlightDiv,
-    .easyPaymentdiv{
+    .easyPaymentdiv {
         width: 100%;
     }
-    .productLeft{
-        position:unset;
-        height:auto; 
-     }
-    .colerType{
-	font-weight:bold;
+    .productLeft {
+        position: unset;
+        height: auto;
+    }
+    .colerType {
+        font-weight: bold;
     }
     .mainImg {
-       display:block;
-       margin-left:auto;
-       margin-right:auto;
-       width:50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
     }
     .productImgdiv {
         padding-bottom: 20px;
         background: white;
     }
     .productDetailsdiv,
-    .productBodydiv,.productImagesdivRight{
+    .productBodydiv,
+    .productImagesdivRight {
         padding: 0px !important;
     }
     .productBodydiv {
-        background-color:white;
+        background-color: white;
     }
     .selectVarient {
         background: white;
@@ -525,45 +567,48 @@ body{
     .mobileSelectdiv {
         margin-top: 5px;
     }
-    .selectColorspan,.selectVarient{
-	font-size: 15px;
+    .selectColorspan,
+    .selectVarient {
+        font-size: 15px;
     }
-    .colorNum{
-        color:rgb(135 135 135);
-        font-size:13px;  
+    .colorNum {
+        color: rgb(135 135 135);
+        font-size: 13px;
     }
-    .headingDiv{
- 	font-size: 16px;
+    .headingDiv {
+        font-size: 16px;
     }
-    .ratingSpan{
-	font-size:14px;
-        color:rgb(42, 85, 229);
-        font-weight:normal;
+    .ratingSpan {
+        font-size: 14px;
+        color: rgb(42, 85, 229);
+        font-weight: normal;
     }
-    .off,.actualAmount,.price{
-        font-size:20px;
+    .off,
+    .actualAmount,
+    .price {
+        font-size: 20px;
     }
-    .off{
-	 margin-left: 0px;
+    .off {
+        margin-left: 0px;
     }
-    .price{
-         margin-left:10px;
-         font-weight:bold;
+    .price {
+        margin-left: 10px;
+        font-weight: bold;
     }
-     .withoutExchangediv {
-     	 padding: 24px 30px;
-         background:white;
+    .withoutExchangediv {
+        padding: 24px 30px;
+        background: white;
     }
     .exchangeTable {
-         width: 100%;
-         border: 1px solid #e0e0e0;
-         font-size: 15px;
-         border-radius: 2px;
+        width: 100%;
+        border: 1px solid #e0e0e0;
+        font-size: 15px;
+        border-radius: 2px;
     }
     .warrantyDiv {
-        background:white;
+        background: white;
         margin-top: 0px;
-        padding:0 30px;
+        padding: 0 30px;
     }
     .specDiv,
     .deliveryPindiv,
@@ -571,46 +616,44 @@ body{
     .mobileDetailsdiv,
     .productSeller,
     .discriptionDiv {
-	padding:0 30px;
+        padding: 0 30px;
     }
-    .easyPaymentdiv > .highlightUl{
-        margin-left:50px;
+    .easyPaymentdiv > .highlightUl {
+        margin-left: 50px;
     }
-    .highlightDiv > .highlightUl{
-        margin-left:78px !important;
+    .highlightDiv > .highlightUl {
+        margin-left: 78px !important;
     }
     .specImgrow,
     .storageRow,
-    .ramRow,{
+    .ramRow {
         margin-left: 40px;
     }
-    .sellerDetailsdiv{
+    .sellerDetailsdiv {
         margin-left: 110px;
     }
-    .reviewPhotosdiv{
-        overflow:hidden;
-        overflow-x:scroll;
-        whitespace:nowrap;
+    .reviewPhotosdiv {
+        overflow: hidden;
+        overflow-x: scroll;
+        white-space: nowrap;
     }
     .productButtondiv {
         margin-left: 0px;
     }
-     
 }
 @media screen and (max-width: 576px) {
-    .productButtondiv{
-         background:white;
-         position:fixed;
-         bottom:0px;
-         height: 67px;
-         width:100%;    
-
+    .productButtondiv {
+        background: white;
+        position: fixed;
+        bottom: 0px;
+        height: 67px;
+        width: 100%;
     }
-    .productMainimg{
-         padding :0 10px;
+    .productMainimg {
+        padding: 0 10px;
     }
-    .payButtondiv{
-	border-color: rgb(213, 215, 219);
+    .payButtondiv {
+        border-color: rgb(213, 215, 219);
         border-width: 1px;
         border-radius: 4px;
         background-color: rgb(255, 255, 255);
@@ -618,84 +661,92 @@ body{
         height: 100%;
         width: 40vw;
     }
-    .buyButtondiv{
+    .buyButtondiv {
         background-color: rgb(255, 194, 0);
         border-radius: 4px;
         padding: 12px 8px;
         height: 100%;
-        width: 40vw;       
+        width: 40vw;
     }
     .mainImg {
-       display:block;
-       margin-left:auto;
-       margin-right:auto;
-       width:100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
     }
-    .freeDeliver{
-	font-size:13px;
+    .freeDeliver {
+        font-size: 13px;
     }
-    .sellerFinddiv{
-	padding:16px 0px;
+    .sellerFinddiv {
+        padding: 16px 0px;
     }
-    .findSeller{
-	font-size:14px;
+    .findSeller {
+        font-size: 14px;
     }
     .findPin {
-	padding: 10px 16px;
-        font-size:14px;
-        border: 1px solid  #878787;
-        border-radius:3px;
+        padding: 10px 16px;
+        font-size: 14px;
+        border: 1px solid #878787;
+        border-radius: 3px;
     }
-    .deliveryCharge,.ifOrdered{
-        font-weight:normal;
+    .deliveryCharge,
+    .ifOrdered {
+        font-weight: normal;
         color: #878787;
     }
     .ifOrderedcolor {
-	font-weight:normal;
-	color:rgb(199 0 85);
+        font-weight: normal;
+        color: rgb(199 0 85);
     }
-    .replacementDiv{
-	min-width:123px;
-        max-width:123px;
+    .replacementDiv {
+        min-width: 123px;
+        max-width: 123px;
     }
-    .replacementSpan{
-        font-size:12px;
+    .replacementSpan {
+        font-size: 12px;
     }
-    .oppoImg{
-        width:72px;
+    .oppoImg {
+        width: 72px;
     }
-    .warrantyText{
+    .warrantyText {
         margin-left: 15px;
     }
     .warrantySpan {
-       font-size: 12px;
-       line-height: 1.5;
+        font-size: 12px;
+        line-height: 1.5;
     }
-    .manufactureWarrantydiv{
-        padding:30px 0px;
-        align-items:center;
+    .manufactureWarrantydiv {
+        padding: 30px 0px;
+        align-items: center;
     }
-    .otherHighlightsdiv{
-	padding:0px 30px 20px;
+    .otherHighlightsdiv {
+        padding: 0px 30px 20px;
     }
-    .part{
-	color: rgba(113,116,120,1.00);
-        font-size:15px;
+    .part {
+        color: rgba(113, 116, 120, 1);
+        font-size: 15px;
     }
-    .capability{
-	font-size:15px;
+    .capability {
+        font-size: 15px;
     }
-    .otherHighlightsHead{
-	font-size:17px;
-        font-weight:bold;
+    .otherHighlightsHead {
+        font-size: 17px;
+        font-weight: bold;
         padding-bottom: 15px;
         padding-top: 15px;
     }
-    .tableDataleft{
-	width:40%;
+    .tableDataleft {
+        width: 40%;
     }
-    .tableDataright{
-	padding-left:10px
+    .tableDataright {
+        padding-left: 10px;
     }
-
+    .similarProductshead {
+        font-weight: normal;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .similarProductsdiv {
+        padding-left: 16px;
+    }
 }
