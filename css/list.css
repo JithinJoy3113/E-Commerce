@@ -1,0 +1,250 @@
+*{
+	letter-spacing: .3px;
+}
+.bodyMaindiv{
+	padding: 8px;
+                  background:#f1f3f6;
+}
+.leftContent{
+         box-shadow: 0 1px 8px 0 rgba(0,0,0,.06);
+        width:100%;
+        max-width: 272px;
+}
+.filterDiv,.categoryDiv{
+	padding: 16px;
+}
+.filter{
+	font-size: 17px;
+        letter-spacing: .3px;
+        font-weight:bold;
+}
+.clear{
+	cursor:pointer;
+        color:#2874f0;
+        font-size:11px;
+        font-weight:bold;
+}
+.minButton{
+	cursor:pointer;
+    	font-size:12px;
+    	background-color:#e0e0e0;
+    	box-shadow: 0 2px 4px 0 hsla(0, 0%, 100%, .5);
+    	border-radius: 3px;
+    	margin-top:8px;   	
+        max-width:200px;
+        padding: 8px;
+}
+.categoryHead{
+	font-size:11px;
+        font-weight:bold;
+}
+.accessoriesLink{
+	color:#878787;
+        font-size:13.5px;
+}
+.mobileLink{
+	font-size:13px;
+        font-weight:bold;
+}
+.price{
+        font-size:12px;
+        font-weight:bold;
+}
+.priceDiv{
+	padding: 18px 16px;
+}
+.checkboxDiv{
+        padding: 10px 16px;
+}
+.inputRange{
+	width:100%;
+        min-width:238px;
+        max-width:238px;
+}
+.minDiv{
+	border: 1px solid #e0e0e0;
+}
+select{
+	outline:none;
+        font-size:13px;
+        width:100%;
+        min-width:100px;
+	padding: 0 5px;
+}
+.priceMinmax{
+	margin: 5px -4px 0;
+}
+
+.toSpan,.star,.option,.needHelp{
+	font-size:14px;
+}
+.leftImgdiv{
+	padding-top:30px;
+}
+.decideLink{
+	color:#2874f0;
+        font-size:18px;
+}
+.rightTop{
+	padding: 10px 16px 0;
+}
+.pathLink{
+	font-size:11.5px;
+        color:#878787;      
+}
+.pathLink:hover{
+        color:#2874f0;
+        cursor:pointer;
+}
+.result{
+        font-weight: bold;
+    	font-size: 15.2px;
+    	margin-top: 5px;
+}
+.sort{
+	padding: 8px 10px 4px 0;
+        font-size:13px;
+        font-weight:bold;
+}
+.sortType{
+	padding: 8px 0 4px;
+        margin: 0 10px;
+        font-size:13px;
+}
+.productDiv{
+	border-bottom: 1px solid #f0f0f0;
+	padding: 24px 0 30px 24px;
+                  cursor:pointer;
+}
+.mobileImg{
+	margin:4px 21px;
+}
+.compareCkeckdiv{
+        margin-top:11px;
+}
+.compare{
+	font-size:13.5px;
+}
+.sponsored{
+	color:#bdbdbd;
+        font-size:13px;
+        font-weight:bold;
+        margin-top:3px;
+}
+.productDetailsdiv{
+	padding-left: 23px;
+        width:100%;
+}       
+.specificationDiv{
+	 width: 58.33%;
+}
+.itemPricediv{
+	padding-left: 25px;
+        width: 41.66%;
+}
+.headingDiv{
+	font-size:17px;
+        font-weight:bold;
+        line-height: 1;
+}
+.headingDiv:hover{
+	color:#2874f0;
+}
+.ratingSpan{
+	font-size:13.5px;
+        color:#878787;
+        font-weight:bold;
+}
+.featuresUl{
+	line-height: 22px;
+        padding-left:19px;
+}
+.features,.warranty{
+	font-size:13px;
+}
+li::marker{
+	color: rgb(194, 194, 194);
+}
+.mobilePrice{
+	font-size:24px;
+        font-weight:bold;
+}
+.actualAmount{
+	font-size:13px;
+        color:#878787;
+}
+.off,.upto{
+	font-size:13px;
+}
+.free{
+	font-size:11px;
+}
+.top{
+        color:rgb(112, 72, 198);
+        font-weight:bold;
+        font-size:11.5px;
+        margin-left: 3px;
+}
+.topGreen{
+        color:rgb(38, 165, 65);
+        font-weight:bold;
+        font-size:11.5px;
+        margin-left: 3px;
+}
+.pageLinkblue{
+     font-size:14px;
+     background: #2874f0;
+    color: #fff;
+    display: inline-block;
+    padding: 0 8px;
+    cursor: pointer;
+    line-height: 32px;
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    align-items: center;
+}
+.pageLink{
+     font-size:14px;
+     padding: 0 8px;
+     cursor: pointer;
+    line-height: 32px;
+    height: 32px;
+    width: 32px;
+}
+.pageDiv{    
+    padding: 14px 10px;
+    line-height: 32px;
+}
+.pageSpan{
+     font-size:14px; 
+}
+.nextLink{
+      font-weight:bold;
+       font-size:12px;
+      height: 32px;
+    color: #2874f0;
+    padding: 0 25px;
+}
+.pageNumberdiv{
+      align-items: center;
+      margin-left:38%;
+}
+.questionDiv{
+      padding:18px 16px;
+}
+.question{
+       font-size:15px;
+       font-weight:bold;
+}
+.answerDiv{
+       margin-left: 24px;
+    font-size: 12px;
+      font-weight:bold;
+}
+.yes{
+      border-radius: 2px;
+    border: 1px solid #d7d7d7;
+    padding: 6px 28px;
+    margin-right: 8px;
+}

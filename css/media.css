@@ -1,0 +1,28 @@
+@media screen and (max-width:1200px){
+        .footerColOne{
+             	width:100% !important;
+             	margin:0px !important;
+             	padding-right:3% !important;
+         }
+         .footerContents{
+		padding-left:0px !important;
+	}
+	.contentOne{
+             	width:235px;
+	}
+        .companyDiv{
+	 	margin-right:63px;
+	}
+        .footerColTwo{
+		margin-top:17px;
+	}
+        .mailDiv{
+ 		border:	none ;
+                padding:0px !important;
+	}
+}
+@media screen and (max-width:1000px){
+	.baseLink{
+		font-size:10px;
+	}
+}
